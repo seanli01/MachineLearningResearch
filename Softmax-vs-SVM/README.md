@@ -1,5 +1,18 @@
-In order to replicate the original paper, Deep Learning using Linear Support Vector Machines (Yichuan Tang) https://arxiv.org/abs/1306.0239, we decided to replicate by using the classification of MNIST Dataset using linear SVM with a Keras and a Tensorflow backend. The code can be found here https://github.com/hgupta01/svm_classification_keras or under the code section in paperswithcode https://paperswithcode.com/paper/deep-learning-using-linear-support-vector.
+Authors: Brandon Park, Yanis Mouazar, Sean Li
 
-We used only the MNIST and the CIFAR-10 datasets and modified the code above to fit both datasets. 
+**Overview:**
+This paper discusses the reproducibility of machine learning models, particularly focusing on the comparison of softmax activation function and linear support vector machine (SVM) in convolutional neural networks. The study uses datasets like MNIST, CIFAR-10, and ICML 2013 face expression recognition challenge.
 
-The packages used to obtain these results were imported from a tensorflow and keras. In our A4.ipynb, you will see our experiments and results collected. Under a section in the A4 file called PAPER MODELS, we try to replicate the code using the repository stated above while fine tuning the parameters specified in the original paper. Each block of code represents a model that uses either softmax or svm layer on both datasets. And under the section called BEST MODELS, it is an updated modification of each model after we fine-tuned the hyperparameters and conducted ablation studies under the section called EXPERIMENTS. Each section so should have 4 blocks of code. To replicate the results, please run each block seperately.
+**Key Findings:**
+
+- Evaluation of softmax and SVM layers in CNNs across different datasets.
+- Analysis of model performance and reproducibility challenges.
+- Insights into the practical aspects of model implementation and dataset peculiarities.
+  
+**Usage:**
+
+The paper provides a comprehensive insight into the methodology used for the experiments.
+The implementation details and results are discussed, which can be used as a reference for similar studies on model reproducibility.
+Additional Notes:
+
+The study emphasizes the importance of accurate and detailed documentation in machine learning research to ensure reproducibility.
