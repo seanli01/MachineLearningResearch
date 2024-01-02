@@ -1,4 +1,4 @@
-Authors: Brandon Park, Yanis Mouazar, Sean Li
+Authors: Sean Li, Brandon Park, Yanis Mouazar
 
 **Overview:**
 This paper discusses the reproducibility of machine learning models, particularly focusing on the comparison of softmax activation function and linear support vector machine (SVM) in convolutional neural networks. The study uses datasets like MNIST, CIFAR-10, and ICML 2013 face expression recognition challenge.
