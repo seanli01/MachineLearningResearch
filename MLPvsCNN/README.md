@@ -1,4 +1,4 @@
-Authors: Brandon Park, Sean Li, Yanis Mouazar
+Authors: Sean Li, Brandon Park, Yanis Mouazar
 
 **Overview:**
 This paper explores the effectiveness of multilayer perceptrons (MLP) and convolutional neural networks (CNN) in classifying image data. It focuses on implementing these models on the CIFAR-10 dataset, investigating the impact of different network architectures, activation functions, and regularizations on model performance.
